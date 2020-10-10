@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>N-Bar</title>
+<head>
+<link rel="stylesheet" type="text/css" media="screen" href="html/nbar.css">
+<link rel="stylesheet" href="nbar.css">
+<script src="n-bar.js"></script>
+<script>
+
+function fun(){
+var x= document.getElementById("menu");
+if(x.style.display == "block")
+{
+   x.style.display ="none";
+}
+else{
+x.style.display ="block";
+}
+
+}
+</script>
+</head>
+<body>
+<div class="nav-bar">
+<img src="logo2.jpg">
+<div class="menu-right">
+<span onClick="fun()">&#9776;</span>
+<ul id="menu">
+<li>About Us</li>
+<li>Our Presence</li>
+<li>Our Offerings</li>
+<li>Investors</li>
+<li>Careers</li>
+<li>Media Center</li>
+<li>Cipla Foundation</li>
+<li>Contact Us</li>
+</ul>
+</div>
+
+</div>
+
+</body>
+
+</html>
